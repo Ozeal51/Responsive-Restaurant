@@ -1,16 +1,60 @@
 /* Navbar active link styling */
 .navbar .nav-link {
-  color: #ddd;
+  color: #f8e2e2;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .navbar .nav-link:hover {
-  color: #fff;
+  color: #fcbebe;
 }
 
 /* Active link (ScrollSpy) */
 .navbar .nav-link.active {
-  color: #0d6efd; /* Bootstrap primary color */
+  color: #380202; /* Bootstrap primary color */
   font-weight: 600;
-  border-bottom: 2px solid #0d6efd;
+  border-bottom: 2px solid #41031a;
 }
+    /* Hero Section */
+    .hero {
+      background: url('./akpu1.jpg') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(231, 229, 229);
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background-color: rgba(201, 209, 203, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .about-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #333;
+      color: rgb(173, 6, 6);
+      padding: 20px 0;
+    }
+    footer a {
+      color: rgb(160, 24, 24);
+      margin: 0 10px;
+    }
+  
