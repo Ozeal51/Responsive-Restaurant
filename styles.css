@@ -16,7 +16,7 @@
 }
     /* Hero Section */
     .hero {
-      background: url('./akpu1.jpg') center/cover no-repeat;
+      background: url('./Images/akpu1.jpg') center/cover no-repeat;
       height: 70vh;
       display: flex;
       align-items: center;
